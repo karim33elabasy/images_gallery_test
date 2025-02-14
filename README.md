@@ -1,16 +1,19 @@
-# images_gallery_test
+# Flutter Image Gallery App
+This Flutter application allows users to create their own image gallery by picking multiple images from their device's gallery and displaying them in a ListView.
 
-A new Flutter project.
+## Features
+ListView for Displaying Images:
 
-## Getting Started
+- The app displays selected images in a scrollable ListView.
 
-This project is a starting point for a Flutter application.
+- Each image is displayed in a custom ImageWidget.
 
-A few resources to get you started if this is your first Flutter project:
+- Pick Multiple Images: A "Pick Images" button allows users to open their device's gallery and select multiple images.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Selected images are displayed in the ListView after selection.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Software Version
+Flutter 3.27.3 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision c519ee916e (3 weeks ago) • 2025-01-21 10:32:23 -0800
+Engine • revision e672b006cb
+Tools • Dart 3.6.1 • DevTools 2.40.2
